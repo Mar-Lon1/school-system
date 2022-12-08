@@ -31,9 +31,10 @@
 <div class="form-group">
 <h5>User Role <span class="text-danger">*</span></h5>
 <div class="controls">
-    <select name="usertype" id="usertype" required="" class="form-control">
+    <select name="role" id="role" required="" class="form-control">
         <option value="" selected="" disable= "">Select Role</option>
         <option value="Admin">Admin</option>
+        <option value="Operator">Operator</option>
         <option value="Accountant">Accountant</option>
         <option value="HR">HR</option>
         <option value="Teacher">Teacher</option>
@@ -72,13 +73,7 @@
 </div>
  <!-- End Col Md-6 -->
 <div class="col-md-6">
-<div class="form-group">
-        <h5>User Password <span class="text-danger">*</span></h5>
-        <div class="controls">
-            <input type="password" name="password" class="form-control" required="" > </div>
-       
-   
-</div>
+
 </div> <!-- End Col Md-6 -->
 </div> 
 <!-- //End Row -->

@@ -41,6 +41,17 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+
+
+// PDF Generator 
+
+
+$app->singleton(\Barryvdh\DomPDF\ServiceProvider::class);
+
+
+
+// End PDF Generator 
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

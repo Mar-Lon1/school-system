@@ -1,6 +1,8 @@
 @extends('admin.admin_master')
 @section('admin')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
 <div class="content-wrapper">
 	  <div class="container-full">
 		<!-- Content Header (Page header) -->
@@ -104,6 +106,7 @@
         <h5>Profile Image <span class="text-danger">*</span></h5>
         <div class="controls">
             <input type="file" name="image" class="form-control"id="image" > </div>
+</div>
 
             <div class="form-group">
                 <div class="controls">

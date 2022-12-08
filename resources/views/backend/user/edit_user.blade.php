@@ -31,13 +31,14 @@
 <div class="form-group">
 <h5>User Role <span class="text-danger">*</span></h5>
 <div class="controls">
-    <select name="usertype" id="usertype" required="" class="form-control">
+    <select name="role" required="" class="form-control">
         <option value="" selected="" disable= "">Select Role</option>
-        <option value="Admin"  {{ ($editData->usertype =="Admin" ? "selected": "") }}>Admin</option>
-        <option value="Accountant" {{ ($editData->usertype =="Accountant" ? "selected": "") }}>Accountant</option>
-        <option value="HR"{{ ($editData->usertype =="HR" ? "selected": "") }}>HR</option>
-        <option value="Teacher"{{ ($editData->usertype =="Teacher" ? "selected": "") }}>Teacher</option>
-        <option value="Parent"{{ ($editData->usertype =="Parent" ? "selected": "") }}>Parent</option>
+        <option value="Admin"  {{ ($editData->role =="Admin" ? "selected": "") }}>Admin</option>
+        <option value="Operator"  {{ ($editData->role =="Operator" ? "selected": "") }}>Operator</option>
+        <option value="Accountant" {{ ($editData->role =="Accountant" ? "selected": "") }}>Accountant</option>
+        <option value="HR"{{ ($editData->role =="HR" ? "selected": "") }}>HR</option>
+        <option value="Teacher"{{ ($editData->role =="Teacher" ? "selected": "") }}>Teacher</option>
+        <option value="Parent"{{ ($editData->role=="Parent" ? "selected": "") }}>Parent</option>
     </select>
 </div>
 </div>
